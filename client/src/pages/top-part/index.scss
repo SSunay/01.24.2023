@@ -1,0 +1,43 @@
+.topPart{
+    // width: 100%;
+    background: rgb(0,88,226);
+    background: linear-gradient( to right, rgba(0,88,226,1) 0% 35%, rgba(255,255,255,0) 35% 100%);
+   .topPart_main{
+    width: 1280px;
+    margin: 0 auto;
+    // padding: 0 5%;
+  padding: 50px 50px; 
+    display: flex;
+    justify-content: center;
+    column-gap: 92px;
+    .topPart_img{
+      img{
+        width: 462px;
+        height: 698px;
+      }
+
+    }
+    .topPart_text{
+        position: relative;
+        top: 150px;
+        width: 555px;
+        height: 352px;
+        h2{
+            // color: white;
+            font-weight: 400;
+            font-size: 43px;
+            opacity: 0.5;
+        }
+        h1{
+            font-size: 55px;
+        }
+        p{
+            // color: rgb(255, 255, 255);
+            font-weight: 400;
+            font-size: 17px;
+            opacity: 0.6;
+
+        }
+    }
+   }
+}
